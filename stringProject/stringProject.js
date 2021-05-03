@@ -42,8 +42,8 @@ console.log(encrpytedPass)
 
 function login() {
 
-    let userInput = window.prompt("Enter your username")
-    let passInput = window.prompt("Enter you password")
+    let userInput = window.prompt("Enter your username").toLowerCase()
+    let passInput = window.prompt("Enter you password").toLowerCase()
 
     if (userInput == "" || passInput == "") {
         alert("No user found");
